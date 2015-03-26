@@ -1,0 +1,314 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Two Column One Page Curriculum Vitae
+% LaTeX Template
+% Version 1.1 (24/1/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Alessandro (The CV Inn)
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt]{article} % Font size - 10pt, 11pt or 12pt
+
+\usepackage[hmargin=1.25cm, vmargin=1.5cm]{geometry} % Document margins
+
+\usepackage{marvosym} % Required for symbols in the colored box
+\usepackage{ifsym} % Required for symbols in the colored box
+
+\usepackage[usenames,dvipsnames]{xcolor} % Allows the definition of hex colors
+
+% Fonts and tweaks for XeLaTeX
+\usepackage{fontspec,xltxtra,xunicode}
+\defaultfontfeatures{Mapping=tex-text}
+\setromanfont[Mapping=tex-text]{Songti SC} % Main document font
+\setsansfont[Scale=MatchLowercase,Mapping=tex-text]{Kaiti SC} % Font for your name at the top
+%\setmonofont[Scale=MatchLowercase]{Andale Mono}
+
+% Colors for links, text and headings
+\usepackage{hyperref}
+\definecolor{linkcolor}{HTML}{506266} % Blue-gray color for links
+\definecolor{shade}{HTML}{F5DD9D} % Peach color for the contact information box
+\definecolor{text1}{HTML}{2b2b2b} % Main document font color, off-black
+\definecolor{headings}{HTML}{701112} % Dark red color for headings
+% Other color palettes: shade=B9D7D9 and linkcolor=A40000; shade=D4D7FE and linkcolor=FF0080
+
+\hypersetup{colorlinks,breaklinks, urlcolor=linkcolor, linkcolor=linkcolor} % Set up links and colors
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+% Headers and footers can be added with the \lhead{} \rhead{} \lfoot{} \rfoot{} commands
+% Example footer:
+%\rfoot{\color{headings} {\sffamily Last update: \today}. Typeset with Xe\LaTeX}
+
+\renewcommand{\headrulewidth}{0pt} % Get rid of the default rule in the header
+
+\usepackage{titlesec} % Allows creating custom \section's
+
+% Format of the section titles
+\titleformat{\section}{\color{headings}
+\scshape\Large\raggedright}{}{0em}{}[\color{black}\titlerule]
+
+\titlespacing{\section}{0pt}{0pt}{5pt} % Spacing around titles
+
+\begin{document}
+
+\color{text1} % Sets the default text color for the whole document to the color defined as 'text1'
+
+%----------------------------------------------------------------------------------------
+%	TITLE
+%----------------------------------------------------------------------------------------
+
+\par{\centering{\sffamily\fontsize{31pt}{\baselineskip}\selectfont 黄海汇}\\ % Your name
+{\color{headings}\fontspec[Variant = 2]{Zapfino} Curriculum {Vit\fontspec[Variant = 3]{Zapfino}\ae}\\[15pt]\par} % Curriculum vitae text in the Zapfino font
+	
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.5\textwidth} % Start the left-hand side of the page
+\vspace{0pt} % Trick for alignment
+	
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{工作经验} 
+
+%------------------------------------------------
+% WORK EXPERIENCE 1
+%------------------------------------------------
+
+{\raggedleft\textsc{2014.12 -- Present}\par}
+
+{\raggedright\large 思爱普（北京）软件有限公司\\[8pt] 
+
+\sffamily{B1的自动化部署}\\[8pt]}
+
+\normalsize{
+部署B1需要大量的时间和精力,然而无论测试还是开发都需要B1
+不同的build的产品进行配合工作。为了节省时间，提高效率，
+开发了一套CI系统，采用Jenkins，Docker等技术去实现自动化
+部署产品，达到五分钟内可新建一个B1环境的目的。Docker技
+术的融合使得工作效率变得更高。}\\
+
+%------------------------------------------------
+% WORK EXPERIENCE 2
+%------------------------------------------------
+
+{\raggedleft\textsc{2014.12 -- Present}\par}
+
+{\raggedright\large 思爱普（北京）软件有限公司\\[8pt]
+
+\sffamily{管理Cateroy的Outlook插件}\\[8pt]}
+
+\normalsize{
+Outlook自带的Category自定义以及搜索不是很简洁方便。为公
+司开发一个Outlook的插件用于管理邮件的Category，达到能够
+从Category快速定位到邮件，并且支持组合查询，近自动化添加
+Category的目的。项目使用到了C\#，Outlook Addin等技术和概
+念。}\\
+
+
+%-----------------------------------------------
+% Addition work experience
+%-----------------------------------------------
+{\raggedleft\textsc{2014.09-2014.10}\par}
+
+{\raggedright\large 上海交通大学思政室\\[8pt]
+
+\sffamily{上海交通大学思政问卷调查}\\[8pt]}
+
+\normalsize{
+交通大学的思政调研网站。提供全校的学生，老师以及领导对思
+政室的问卷进行填写的平台。网站基于.net平台构建，用Java进
+行全校师生信息数据的导入，配合MySql运行。}\\
+
+%------------------------------------------------
+% WORK EXPERIENCE 3
+%------------------------------------------------
+
+{\raggedleft\textsc{2012.08 -- 2012.09}\par}
+
+{\raggedright\large 苏州昌益人力资源有限公司\\[8pt] 
+
+\sffamily{昌益公司官方网站}\\[8pt]}
+
+\normalsize{
+运用LAMP的知识为公司创建了一个网站。基于MVC的模式实现
+了用户可以查阅岗位以及投递简历。2014年底网站做了一次更新
+，使用Django重构。}\\
+
+%------------------------------------------------
+% WORK EXPERIENCE 4
+%------------------------------------------------
+
+{\raggedleft\textsc{2011.09 -- 2012.10}\par}
+
+{\raggedright\large 东南大学计算机学院\\[8pt]
+
+\sffamily{基于超复数矩不变量的研究及其在视屏监控中的应用}\\[8pt]}
+
+\normalsize{
+作为项目的学生负责人，除了兼顾协调，在项目中基于OpenCV
+对使用的特征点匹配的算法SIFT进行了验证，配合老师完成调研
+，项目总结以及最终答辩等工作。}\\
+%----------------------------------------------------------------------------------------	
+
+\end{minipage} % End the left-hand side of the page
+\hfill
+\begin{minipage}[t]{0.44\textwidth} % Start the right-hand side of the page
+\vspace{0pt} % Trick for alignment
+
+%----------------------------------------------------------------------------------------
+%	COLORED BOX
+%----------------------------------------------------------------------------------------
+
+\colorbox{shade}{\textcolor{text1}{
+\begin{tabular}{c|p{7cm}}
+\raisebox{-4pt}{\textifsymbol{18}} & 中国上海闵行区东川路800号，200240 \\ % Address
+\raisebox{-3pt}{\Mobilefone} & +86 13916078676 \\ % Phone number
+\raisebox{-1pt}{\Letter} & \href{mailto:hhh1949@gmail.com}{hhh1949@gmail.com} \\ % Email address
+\Keyboard & \href{http://huanghaihui.com}{http://huanghaihui.com} \\ % Website
+\end{tabular}
+}
+}\\[10pt]
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{教育背景} 
+
+\begin{tabular}{rl} % Start a table with two columns, one for dates and one for qualifications
+
+%------------------------------------------------
+% EDUCATION 1
+%------------------------------------------------
+
+2013.9 -- 2016.3 & \textbf{硕士}, 软件工程 \\ 
+& \textsc{软件学院}，\textit{上海交通大学}\\
+&\\
+	 
+%------------------------------------------------
+% EDUCATION 2
+%------------------------------------------------
+
+2009.9 -- 2013.6 & \textbf{本科}, 计算机科学与技术 \\ 
+& \textsc{计算机科学与工程学院}，\textit{东南大学}\\
+	 
+%------------------------------------------------
+% EDUCATION 3
+%------------------------------------------------
+
+%2009 & \textbf{Postgraduate Diploma}\\
+%& \small Distinction \\
+%& \textsc{Computer Science} \\
+%& \textit{The University of California}\\
+%&\\
+	 
+%------------------------------------------------
+% EDUCATION 4
+%------------------------------------------------
+
+%2006 -- 2008 & \textbf{Bachelor of Business Studies}\\
+%& \textsc{Commerce} \\
+%& \textit{The University of California} 
+	
+%----------------------------------------------------------------------------------------
+
+\end{tabular}\\[10pt]
+
+\section{实习经历} 
+
+\begin{tabular}{rl} % Start a table with two columns, one for dates and one for qualifications
+
+%------------------------------------------------
+% EDUCATION 1
+%------------------------------------------------
+
+2014.12 -- Present & \textit{思爱普（北京）软件有限公司} \\ 
+& 软件开发实习生\\
+& \\
+
+2013.08 -- 2013.09 & \textit{苏州昌益人力资源有限公司} \\ 
+& 软件开发工程师\\
+& \\
+
+
+\end{tabular}\\[10pt]
+
+
+%----------------------------------------------------------------------------------------
+%	AWARDS
+%----------------------------------------------------------------------------------------
+
+\section{荣誉奖励} 
+
+\begin{tabular}{rl}
+2012	 & \textbf{优秀百名大学生奖}\\
+& \textit{中国计算机协会}\\ \\
+
+
+
+%------------------------------------------------
+2012	 & \textbf{江苏省三好学生}\\
+& \textit{江苏省教育局}\\ \\
+
+2011 & \textbf{校长奖学金}\\
+& \textit{东南大学奖学金评选委员会} \\ \\
+
+2011	 & \textbf{二等奖}\\
+& \textit{全美数学建模竞赛 (MCM)}\\ \\
+
+\end{tabular}\\[10pt]
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS
+%----------------------------------------------------------------------------------------
+
+\section{计算机技能} 
+
+\begin{tabular}{ll}
+精通或熟悉
+& \textsc{C/C++}, Linux \\ 
+& \\
+掌握或了解
+&  \textsc{Django}, \textsc{ZendFramework}, Apache, Python\\
+& PHP, \textsc{C\#}, \LaTeX, Javascript, HTML/CSS \\
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS
+%----------------------------------------------------------------------------------------
+
+\section{其他} 
+
+\begin{tabular}{rl}
+\textsc{英语能力}
+& CET-6 \\
+& \\
+\textsc{兴趣爱好}
+& 足球，院队成员  \\
+
+
+
+\end{tabular}\\[10pt]
+
+%----------------------------------------------------------------------------------------
+	
+\end{minipage} % End right-hand side of the page
+
+\end{document}  

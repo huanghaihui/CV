@@ -1,0 +1,277 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Two Column One Page Curriculum Vitae
+% LaTeX Template
+% Version 1.1 (24/1/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Alessandro (The CV Inn)
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[UTF8,10pt]{article} % Font size - 10pt, 11pt or 12pt
+
+\usepackage[hmargin=1.25cm, vmargin=1.5cm]{geometry} % Document margins
+
+\usepackage{marvosym} % Required for symbols in the colored box
+\usepackage{ifsym} % Required for symbols in the colored box
+
+\usepackage[usenames,dvipsnames]{xcolor} % Allows the definition of hex colors
+
+% Fonts and tweaks for XeLaTeX
+\usepackage{fontspec,xltxtra,xunicode}
+\defaultfontfeatures{Mapping=tex-text}
+\setromanfont[Mapping=tex-text]{Hoefler Text} % Main document font
+\setsansfont[Scale=MatchLowercase,Mapping=tex-text]{Gill Sans} % Font for your name at the top
+%\setmonofont[Scale=MatchLowercase]{Andale Mono}
+
+% Colors for links, text and headings
+\usepackage{hyperref}
+\definecolor{linkcolor}{HTML}{506266} % Blue-gray color for links
+\definecolor{shade}{HTML}{F5DD9D} % Peach color for the contact information box
+\definecolor{text1}{HTML}{2b2b2b} % Main document font color, off-black
+\definecolor{headings}{HTML}{701112} % Dark red color for headings
+% Other color palettes: shade=B9D7D9 and linkcolor=A40000; shade=D4D7FE and linkcolor=FF0080
+
+\hypersetup{colorlinks,breaklinks, urlcolor=linkcolor, linkcolor=linkcolor} % Set up links and colors
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+% Headers and footers can be added with the \lhead{} \rhead{} \lfoot{} \rfoot{} commands
+% Example footer:
+%\rfoot{\color{headings} {\sffamily Last update: \today}. Typeset with Xe\LaTeX}
+
+\renewcommand{\headrulewidth}{0pt} % Get rid of the default rule in the header
+
+\usepackage{titlesec} % Allows creating custom \section's
+
+% Format of the section titles
+\titleformat{\section}{\color{headings}
+\scshape\Large\raggedright}{}{0em}{}[\color{black}\titlerule]
+
+\titlespacing{\section}{0pt}{0pt}{5pt} % Spacing around titles
+
+\begin{document}
+
+\color{text1} % Sets the default text color for the whole document to the color defined as 'text1'
+
+%----------------------------------------------------------------------------------------
+%	TITLE
+%----------------------------------------------------------------------------------------
+
+\par{\centering{\sffamily\Huge Huang Haihui}\\ % Your name
+{\color{headings}\fontspec[Variant = 2]{Zapfino} Curriculum {Vit\fontspec[Variant = 3]{Zapfino}\ae}\\[15pt]\par} % Curriculum vitae text in the Zapfino font
+	
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.5\textwidth} % Start the left-hand side of the page
+\vspace{0pt} % Trick for alignment
+	
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Work Experience} 
+
+%------------------------------------------------
+% WORK EXPERIENCE 1
+%------------------------------------------------
+
+{\raggedleft\textsc{Current, from Dec 2014}\par}
+
+{\raggedright\large \textsc{SAP Inc}, Shanghai\\
+\textit{B1 Auto-deployment}\\[8pt]}
+
+\normalsize{B1 Deployment will cost staffs much time. Besides, there is in great demand for B1 Deployment 
+in company. To save time and make working more efficient, a CI System is developed with Jenkins, Docker and
+other techniques for B1 auto-deployment, which will make staffs build a B1 environment in just five minutes. }\\
+
+%------------------------------------------------
+% WORK EXPERIENCE 2
+%------------------------------------------------
+
+{\raggedleft\textsc{Current, from Dec 2014}\par}
+
+{\raggedright\large \textsc{SAP Inc}, Shanghai\\
+\textit{Outlook Category Add In}\\[8pt]}
+
+\normalsize{It is not convenient to use category function in Outlook. This project focus on outlook category, 
+which make users easy to find email by category, support query composition and add categories
+automatically. }\\
+
+%------------------------------------------------
+% WORK EXPERIENCE 3
+%------------------------------------------------
+
+{\raggedleft\textsc{Sept 2014 - Oct 2014}\par}
+
+{\raggedright\large \textsc{Ideological and Politcal Room in SJTU}\\
+\textit{Questionnaire Survey Website in SJTU}\\[5pt]}
+
+\normalsize{It is based on ASP.NET and  importing data to MySql with Java. 
+And it provides students, teachers and leaders for completing the questionnaire that Ideological and Politcal Room
+ offers.}\\
+
+%------------------------------------------------
+% WORK EXPERIENCE 4
+%------------------------------------------------
+
+{\raggedleft\textsc{Aug 2012 - Sept 2012}\par}
+
+{\raggedright\large \textsc{ChangyiHR. Inc}, Suzhou\\
+\textit{Official Website for ChangyiHR}\\[5pt]}
+
+\normalsize{Design and implement a website for company with the knowledge of LAMP. The site is based on MVC 
+Partern and provides users to submit resume online. It is reconstructed in 2014 by using Django.}\\
+
+%------------------------------------------------
+% WORK EXPERIENCE 5
+%------------------------------------------------
+
+{\raggedleft\textsc{Sept 2011 -- Oct 2012}\par}
+
+{\raggedright\large Computer Science \& Engineering in Southeast University, Nanjing\\
+\textit{Color image super-complex moment invariants and its application in video surveillance}\\[5pt]}
+
+\normalsize{As the team leader, I am responsible for communicating with teachers and coordinating other students in the team. Designed and developed our lab in the project, using toolkit such as OpenCV and algorithms such as sift.}\\
+
+%----------------------------------------------------------------------------------------	
+
+\end{minipage} % End the left-hand side of the page
+\hfill
+\begin{minipage}[t]{0.44\textwidth} % Start the right-hand side of the page
+\vspace{0pt} % Trick for alignment
+
+%----------------------------------------------------------------------------------------
+%	COLORED BOX
+%----------------------------------------------------------------------------------------
+
+\colorbox{shade}{\textcolor{text1}{
+\begin{tabular}{c|p{7cm}}
+\raisebox{-4pt}{\textifsymbol{18}} & No.800 DongChuan Road, Minhang District, Shanghai, China 200240 \\ % Address
+\raisebox{-3pt}{\Mobilefone} & +139 16078676 \\ % Phone number
+\raisebox{-1pt}{\Letter} & \href{mailto:hhh1949@gmail.com}{hhh1949@gmail.com} \\ % Email address
+\Keyboard & \href{http://huanghaihui.com}{http://huanghaihui.com} \\ % Website
+\end{tabular}
+}
+}\\[10pt]
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education} 
+
+\begin{tabular}{rl} % Start a table with two columns, one for dates and one for qualifications
+
+%------------------------------------------------
+% EDUCATION 1
+%------------------------------------------------
+
+2013 --  \textsc{Present} & \textbf{Master of Software Engineering} \\ 
+& \textit{Shanghai Jiao Tong University}\\
+&\\
+	 
+%------------------------------------------------
+% EDUCATION 2
+%------------------------------------------------
+
+2009 -- 2013 & \textbf{Bachelor of Science \& Engineering} \\ 
+& \textit{Southeast University}\\
+&\\
+	 
+
+%----------------------------------------------------------------------------------------
+
+\end{tabular}\\[10pt]
+
+
+%%%
+% Intern experience
+%%%%
+
+\section{Intern Experience}
+
+\begin{tabular}{rl}
+2014 -- \textsc{Present} & \textbf{SAP Inc}\\
+& \textit{Software Develop Intern}\\
+&\\
+\textsc{Aug}, 2012 -- \textsc{Spet, 2012} & \textbf{ChangyiHR Inc}\\
+& \textit{Software Develop Intern}\\
+
+
+\end{tabular}\\[10pt]
+
+
+%----------------------------------------------------------------------------------------
+%	AWARDS
+%----------------------------------------------------------------------------------------
+
+\section{Awards} 
+
+\begin{tabular}{rl}
+2012	 & \textbf{CCF Outstanding Undergraduate Student}\\
+& \textit{China Computer Federation}\\ \\
+
+
+
+%------------------------------------------------
+2012	 & \textbf{Jiangsu Province Miyoshi Student}\\
+&  \textit{Bureau of Education of Jiangsu Province}\\ \\
+
+2011 & \textbf{Presidential Scholarship}\\
+& \textit{Southeast University} \\ \\
+
+2011	 & \textbf{Honorable Mention of MCM}\\
+& \textit{Mathematical Contest In Modeling}\\ 
+
+\end{tabular}\\[10pt]
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS
+%----------------------------------------------------------------------------------------
+
+\section{Computer Skills} 
+
+\begin{tabular}{rl}
+Basic Knowledge
+& \textsc{C++}, Linux\\ 
+& \\
+Intermediate Knowledge
+& \textsc{python}, \LaTeX,\textsc{Apache}\\
+& Django, Zend, \textsc{JavaScript}\\ 
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS
+%----------------------------------------------------------------------------------------
+
+\section{Other Skills} 
+
+\begin{tabular}{rl}
+\textsc{Language}
+& CET-6 \\
+\\
+\textsc{Hobbies} 
+& Football, member of College team\\
+\end{tabular}\\[10pt]
+
+%----------------------------------------------------------------------------------------
+	
+\end{minipage} % End right-hand side of the page
+
+\end{document}  
