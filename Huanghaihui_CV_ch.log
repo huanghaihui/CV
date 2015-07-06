@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013) (format=xelatex 2015.3.17)  26 MAR 2015 09:35
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013) (format=xelatex 2015.3.17)  6 JUL 2015 19:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -750,7 +750,7 @@ Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \titlewidthlast=\dimen157
 \titlewidthfirst=\dimen158
 )
-No file Huanghaihui_CV_ch.aux.
+(./Huanghaihui_CV_ch.aux)
 \openout1 = `Huanghaihui_CV_ch.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
@@ -769,6 +769,7 @@ LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 68.
 LaTeX Font Info:    ... okay on input line 68.
 LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 68.
 LaTeX Font Info:    Try loading font information for T3+cmr on input line 68.
+
 (/usr/local/texlive/2013/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
@@ -895,12 +896,10 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 68.
 LaTeX Info: Redefining \pageref on input line 68.
 LaTeX Info: Redefining \nameref on input line 68.
+
+(./Huanghaihui_CV_ch.out) (./Huanghaihui_CV_ch.out)
 \@outlinefile=\write3
 \openout3 = `Huanghaihui_CV_ch.out'.
-
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
 
 LaTeX Font Info:    Font shape `EU1/KaitiSC(0)/m/n' will be
 (Font)              scaled to size 10.0pt on input line 76.
@@ -972,6 +971,7 @@ LaTeX Font Info:    Font shape `EU1/KaitiSC(0)/m/n' will be
 . set;"
 .................................................
 
+
 LaTeX Font Warning: Font shape `EU1/SongtiSC(0)/m/sc' undefined
 (Font)              using `EU1/SongtiSC(0)/m/n' instead on input line 88.
 
@@ -980,182 +980,172 @@ File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
 
 )
 LaTeX Font Info:    Font shape `EU1/KaitiSC(0)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 98.
+(Font)              scaled to size 12.0pt on input line 97.
 
-Overfull \hbox (2.34843pt too wide) in paragraph at lines 101--106
-[]\EU1/SongtiSC(0)/m/sc/10 部署B1需要大量的时间和精力,然而无论测试还是开发都需要B1
+Underfull \hbox (badness 10000) in paragraph at lines 100--104
+[]\EU1/SongtiSC(0)/m/sc/10 基于B/S架构，运用C#,SQL,JS等技术实现自动化测试框架的部
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--106
-\EU1/SongtiSC(0)/m/sc/10 不同的build的产品进行配合工作。为了节省时间，提高效率，
+Overfull \hbox (2.16844pt too wide) in paragraph at lines 100--104
+\EU1/SongtiSC(0)/m/sc/10 署。该框架用于InfraTA的同事去自动化实现产品的升级，包括
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--106
-\EU1/SongtiSC(0)/m/sc/10 开发了一套CI系统，采用Jenkins，Docker等技术去实现自动化
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 101--106
-\EU1/SongtiSC(0)/m/sc/10 部署产品，达到五分钟内可新建一个B1环境的目的。Docker技
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 101--106
+Underfull \hbox (badness 10000) in paragraph at lines 100--104
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--123
-[]\EU1/SongtiSC(0)/m/sc/10 Outlook自带的Category自定义以及搜索不是很简洁方便。为公
+Overfull \hbox (6.90843pt too wide) in paragraph at lines 117--120
+[]\EU1/SongtiSC(0)/m/sc/10 基于B/S架构，运用Docker,Java,JS,Bash等知识实现一套自动化部
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--123
-\EU1/SongtiSC(0)/m/sc/10 司开发一个Outlook的插件用于管理邮件的Category，达到能够
+Overfull \hbox (7.88844pt too wide) in paragraph at lines 117--120
+\EU1/SongtiSC(0)/m/sc/10 署产品的框架。该CI系统采用Docker等技术去实现自动化的产品
  []
 
 
-Overfull \hbox (4.95844pt too wide) in paragraph at lines 118--123
-\EU1/SongtiSC(0)/m/sc/10 从Category快速定位到邮件，并且支持组合查询，近自动化添加
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 118--123
+Underfull \hbox (badness 10000) in paragraph at lines 117--120
 
  []
 
 
-Overfull \hbox (8.41844pt too wide) in paragraph at lines 135--138
-[]\EU1/SongtiSC(0)/m/sc/10 交通大学的思政调研网站。提供全校的学生，老师以及领导对思
+Underfull \hbox (badness 10000) in paragraph at lines 132--135
+[]\EU1/SongtiSC(0)/m/sc/10 基于C#开发一个通过Category来管理邮件的插件。该插件能够
  []
 
 
-Overfull \hbox (1.57845pt too wide) in paragraph at lines 135--138
-\EU1/SongtiSC(0)/m/sc/10 政室的问卷进行填写的平台。网站基于.net平台构建，用Java进
+Underfull \hbox (badness 10000) in paragraph at lines 132--135
+\EU1/SongtiSC(0)/m/sc/10 从Category快速定位到邮件，并且支持组合查询，自动化添加
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--138
-
- []
-
-
-Overfull \hbox (6.71844pt too wide) in paragraph at lines 150--153
-[]\EU1/SongtiSC(0)/m/sc/10 运用LAMP的知识为公司创建了一个网站。基于MVC的模式实现
- []
-
-
-Overfull \hbox (7.17844pt too wide) in paragraph at lines 150--153
-\EU1/SongtiSC(0)/m/sc/10 了用户可以查阅岗位以及投递简历。2014年底网站做了一次更新
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 150--153
+Underfull \hbox (badness 10000) in paragraph at lines 132--135
 
  []
 
 
-Overfull \hbox (4.41844pt too wide) in paragraph at lines 162--162
+Underfull \hbox (badness 10000) in paragraph at lines 147--151
+\EU1/SongtiSC(0)/m/sc/10 全校的学生，老师以及领导对思政室的问卷进行填写的平台。
+ []
+
+
+Overfull \hbox (1.57845pt too wide) in paragraph at lines 147--151
+\EU1/SongtiSC(0)/m/sc/10 网站基于.net平台构建，用Java进行全校师生信息数据的导入，
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--151
+
+ []
+
+
+Overfull \hbox (6.71844pt too wide) in paragraph at lines 163--165
+[]\EU1/SongtiSC(0)/m/sc/10 运用LAMP构建网站。基于MVC的模式实现了用户可以查阅岗位
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--165
+
+ []
+
+
+Overfull \hbox (4.41844pt too wide) in paragraph at lines 174--174
 []\EU1/KaitiSC(0)/m/n/12 基于超复数矩不变量的研究及其在视屏监控中的应用  
  []
 
 
-Overfull \hbox (4.24844pt too wide) in paragraph at lines 165--169
-[]\EU1/SongtiSC(0)/m/sc/10 作为项目的学生负责人，除了兼顾协调，在项目中基于OpenCV
+Overfull \hbox (4.38844pt too wide) in paragraph at lines 177--181
+[]\EU1/SongtiSC(0)/m/sc/10 基于OpenCV对使用的特征点匹配的算法SIFT进行了验证，配合
  []
 
 
-Overfull \hbox (8.55844pt too wide) in paragraph at lines 165--169
-\EU1/SongtiSC(0)/m/sc/10 对使用的特征点匹配的算法SIFT进行了验证，配合老师完成调研
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 165--169
+Underfull \hbox (badness 10000) in paragraph at lines 177--181
 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 187.
+(Font)              <7> on input line 199.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 187.
-LaTeX Font Info:    Try loading font information for U+ifsym on input line 187.
+(Font)              <5> on input line 199.
+LaTeX Font Info:    Try loading font information for U+ifsym on input line 199.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/ifsym/uifsym.fd)
-LaTeX Font Info:    Try loading font information for U+mvs on input line 187.
+LaTeX Font Info:    Try loading font information for U+mvs on input line 199.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/marvosym/umvs.fd)
-Overfull \hbox (4.31616pt too wide) in paragraph at lines 187--188
+Overfull \hbox (4.31616pt too wide) in paragraph at lines 199--200
 [][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--188
+Underfull \hbox (badness 10000) in paragraph at lines 199--200
 
  []
 
 
 LaTeX Font Warning: Font shape `EU1/SongtiSC(0)/bx/n' undefined
-(Font)              using `EU1/SongtiSC(0)/m/n' instead on input line 201.
+(Font)              using `EU1/SongtiSC(0)/m/n' instead on input line 213.
 
 
 LaTeX Font Warning: Font shape `EU1/SongtiSC(0)/m/it' undefined
-(Font)              using `EU1/SongtiSC(0)/m/n' instead on input line 202.
+(Font)              using `EU1/SongtiSC(0)/m/n' instead on input line 214.
 
 
-Overfull \hbox (1.28693pt too wide) in paragraph at lines 195--233
+Overfull \hbox (1.28693pt too wide) in paragraph at lines 207--245
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--233
+Underfull \hbox (badness 10000) in paragraph at lines 207--245
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 236--252
+Underfull \hbox (badness 10000) in paragraph at lines 248--264
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--277
+Underfull \hbox (badness 10000) in paragraph at lines 272--289
 
  []
 
 
-Overfull \hbox (6.70694pt too wide) in paragraph at lines 284--292
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 299--309
+Underfull \hbox (badness 10000) in paragraph at lines 296--303
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 314.
+
+Underfull \hbox (badness 10000) in paragraph at lines 310--320
+
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 325.
 [1
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 314.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 325.
  (./Huanghaihui_CV_ch.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 314.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 314.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 325.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 325.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 314.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 325.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 76 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 22747 strings out of 493938
- 434920 string characters out of 6148857
- 453488 words of memory out of 5000000
- 25840 multiletter control sequences out of 15000+600000
+ 22754 strings out of 493938
+ 435054 string characters out of 6148857
+ 453603 words of memory out of 5000000
+ 25841 multiletter control sequences out of 15000+600000
  4752 words of font info for 38 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  46i,11n,80p,607b,441s stack positions out of 5000i,500n,10000p,200000b,80000s
